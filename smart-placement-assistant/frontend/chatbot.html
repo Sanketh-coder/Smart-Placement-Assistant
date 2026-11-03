@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chatbot | Placement Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Serif:wght@600&display=swap">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="chat">
+<header class="nav" id="nav"></header>
+<main>
+<h1>Chatbot</h1><div class="panel"><div class="chat" id="log" aria-live="polite"></div><div class="chips" id="chips"></div><form id="chatform" class="row" novalidate><div style="flex:5 1 200px"><label for="msg">Your question</label><input id="msg" maxlength="500" autocomplete="off"></div><div><button type="submit">Send</button></div></form><p class="msg info">Answers are predefined rules, not generative AI. Treat them as suggestions, not guaranteed interview advice.</p></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
